@@ -5,6 +5,8 @@ import type React from "react"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+
+// Import seulement les icônes nécessaires pour réduire le bundle
 import { Upload, FileText, ImageIcon, Video, Music } from "lucide-react"
 
 interface UploadedFile {
